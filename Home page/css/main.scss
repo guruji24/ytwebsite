@@ -1,0 +1,857 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
+
+body{
+    background: #f2f2f2;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+.navbar{
+    background: white;
+    padding: 2em;
+    width: 90%;
+    height: .1px;
+    text-align: top;
+    display: inline-block;
+    margin: 0;
+    position: relative;
+   
+    .logo{
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+        font-size: 1.2em;
+        line-height: .2em;
+        display: grid;
+        margin: 0;
+
+    }
+
+
+    nav{
+        display: none;
+        position: fixed;
+        text-decoration: none;
+        z-index: 999;
+        right: 0;
+        top: 0;
+        background: #20272e;
+        height: 100vh;
+        padding: 1em;
+
+        .Exitmenu{
+            width: 7%;
+        }
+
+        ul.nav{
+            margin-top: 5em;
+            list-style-type: none;
+        }
+
+        li{
+            a{
+                color: white;
+                text-decoration: none;
+                display: block;
+                padding: .5em;
+                font-size: 1em;
+                text-align: right;
+                list-style-type: none;
+            }
+
+            &:hover{
+               font-size: 1.3em;
+            }
+
+        }
+
+    }
+    
+    .container{
+        place-content: space-between;
+  
+    }
+
+    .Mobilemenu{
+        cursor: pointer;
+        position: absolute;
+        width: 17%;
+        margin-left: 22em;
+        top: -0.1em;
+    }
+
+    .MyLogo{
+        border: none; 
+        border-radius: 50em;
+        position: absolute;
+        width: 30%;
+        margin-left: 6em;
+        top: -1.3em;
+    }
+    
+}
+
+
+
+.BodySection{
+    height: 50em;
+    margin-top: 0;
+    padding: 0;
+    width: 100%;
+    
+    background-image: url(https://wallpaperaccess.com/full/265002.png);
+
+    h1{
+        text-align: center;
+        font-family: 'Poppins';
+        font-size: 2em;
+        font-weight: bold;
+        margin-top: 7em;
+    }
+
+    .secondry-headline{
+       margin-top: 0;
+       font-size: 0;
+    }
+
+    .more-button-on-body-section{
+        border: solid 3px black;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: 1em;   
+        margin-left: 14em;
+    }
+
+}
+
+    .footer{
+        background: black;
+        width: 100%;
+        height: 90em;
+    }
+
+
+
+
+.video-1-container{
+
+margin-top: 1em;
+margin-left: 0;
+padding-left: 0;
+margin-bottom: 1em;
+width: 100%;
+
+
+.minecraft-part-1-text{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Poppins';
+}
+
+
+.video1{
+    width: 100%;
+    position: absolute;
+    margin-top: 0;
+    padding-top: 0;
+    top: 58em;
+    margin-left: 0;
+    left: 0;
+}
+
+
+
+
+}
+
+
+
+.video-2-container{
+    margin-top: 0;
+    width: 100%;
+
+    .video2{
+        width: 100%;
+        position: absolute;
+        margin-top: 0;
+        padding-top: 0;
+        top: 88em;
+    }
+
+    .minecraft-part-2-text{
+        margin-top: 0;
+        padding-top: 0;
+        display: flex;
+    }
+
+}
+
+
+
+
+
+
+
+h3{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Poppins';
+}
+
+.video-3-container{
+
+    margin-top: 5em;
+    background-image: url('../images/minecraft\ part-3\ thumbnail.png');
+    width: 60%;
+    height: 10em;
+    margin-left: 5em;
+  
+    display: none;
+
+    .part-3{
+        font-size: 1em;
+    }
+
+    .minectraft-part-3-img{
+        width: 0%;
+    }
+
+}
+
+.video-4-container{
+    display: none;
+}
+
+.more-part-2{
+    text-decoration: none;
+    color: white;
+    margin-left: 23em;
+    padding-top: 2em;
+    text-align: center;
+    top: -2em;
+    bottom: -2em;
+}
+
+.back-to-top-button{
+    width: 3%;
+    margin-top: 1em;
+    margin-left: 25em;
+}
+
+
+.pro-gamers-sub-head{
+    font-size: 1em;
+    margin-left: 11em;
+    padding-top: 0em;
+    margin-top: .1em;
+}
+
+.Exitmenu{
+    float: right;
+    margin: .5em;
+    cursor: pointer;
+}
+
+nav.menu-btn{
+    display: block;
+}
+
+@media only screen and (min-width: 537px){
+
+    .MyLogo{
+       display: none;
+    }
+
+    .pro-gamers-sub-head{
+        margin-left: .1em;
+        text-align: center;
+    }
+
+    .more-button-on-body-section{
+        margin-left: 17em;
+    }
+
+    .Mobilemenu{
+        right: 0;
+    }
+
+}
+
+@media only screen and (min-width: 595px){
+
+    .more-button-on-body-section{
+       padding-left: 3em;
+       padding-right: 3em;
+    }
+
+    .more-part-2{
+      margin-left: 32em;
+    }
+
+    .back-to-top-button{
+       margin-bottom: .5em;
+       margin-left: 33em;
+    }
+
+}
+
+@media only screen and (min-width: 613px){
+
+    .back-to-top-text{
+        display: none;
+    }
+
+    .back-to-top-button{
+        margin-bottom: 1em;
+        margin-left: 35em;
+    }
+
+    .more-part-2{
+        margin-left: 34em;
+      }
+
+}
+
+@media only screen and (min-width: 689px){
+
+    .back-to-top-text{
+        display: none;
+    }
+
+    .back-to-top-button{
+        margin-bottom: 2em;
+        margin-left: 38em;
+    }
+
+    .more-part-2{
+        margin-left: 37em;
+      }
+
+      .more-button-on-body-section{
+          padding-left: 5em;
+          padding-right: 5em;
+      }
+
+}
+
+
+@media only screen and (min-width: 750px){
+
+    .BodySection{
+        background-image: url(https://i.pinimg.com/originals/bf/b9/fc/bfb9fc5a3675de10a7892da326b4e494.jpg);
+    }
+
+    .more-part-2{
+        margin-left: 42em;
+    }
+
+    .back-to-top-button{
+        margin-left: 43em;
+    }
+
+    .youtube-grey-icon{
+        margin-left: 8em;
+    }
+
+}
+
+@media only screen and (min-width: 762px){
+
+    .BodySection{
+        background-image: url(https://i.pinimg.com/originals/bf/b9/fc/bfb9fc5a3675de10a7892da326b4e494.jpg);
+    }
+
+    .more-part-2{
+        margin-left: 42em;
+    }
+
+    .back-to-top-button{
+        margin-left: 43em;
+    }
+
+    .youtube-grey-icon{
+        margin-left: 8em;
+    }
+
+    .minecraft-part-1-text{
+        margin-top: 3.5em;
+    }
+
+    .video2{
+        top: 90em;
+    }
+
+    .video1{
+        top: 62em;
+        margin-top: 0;
+    }
+
+}
+
+
+@media only screen and (min-width: 801px){
+
+    .BodySection{
+        background-image: url(https://i.pinimg.com/originals/bf/b9/fc/bfb9fc5a3675de10a7892da326b4e494.jpg);
+    }
+
+    .more-part-2{
+        margin-left: 44em;
+    }
+
+    .back-to-top-button{
+        margin-left: 45em;
+    }
+
+    .youtube-grey-icon{
+        margin-left: 8em;
+    }
+
+}
+
+@media only screen and (min-width: 830px){
+
+    .more-button-on-body-section{
+        padding-right: 10em;
+        padding-left: 10em;
+    }
+
+}
+
+@media only screen and (min-width: 840px){
+
+    .BodySection{
+        //background-image: url(https://www.teahub.io/photos/full/66-665053_pokemon-lucario.jpg);
+        background-image: url(https://i.pinimg.com/originals/13/e1/02/13e1021df16c79033b1ea5854440c0ad.jpg);
+    }
+}
+
+@media only screen and (min-width: 840px){
+
+    .Mobilemenu, .Exitmenu{
+        display: none;
+    }
+
+   .navbar .container{
+       display: grid;
+       grid-template-columns: 180px auto;
+       
+   }
+
+   .navbar nav{
+       display: flex;
+       justify-content: space-between;
+       background: none;
+       position: unset;
+       height: auto;
+       width: 110%;
+       padding: 0;
+      
+
+    ul{
+        display: flex;
+        justify-content: unset;
+    }
+
+
+    .is-this-nav{
+        color: black;
+        font-size: 1em;
+        padding: .1em 1em;
+    }
+   
+
+    ul.nav{
+        margin: 0;
+        margin-left: 17em;
+        margin-top: 0;
+        padding: 0;
+        position: absolute;
+    }
+
+
+    
+
+   
+
+   }
+
+
+   .video-1-container{
+
+    .video1{
+        width: 40%;
+        margin-left: 3em;
+       top: 66em;
+    }
+
+    .minecraft-part-1-text{
+        display: none;
+        margin-left: 5em;
+        position: absolute;
+        padding-left: 2em;
+    }
+
+   }
+
+
+
+    .video-2-container{
+
+        .minecraft-part-2-text{
+           display: none;
+        }
+
+        
+
+        .video2{
+            width: 40%;
+            margin-top: 0;
+            top: 66em;
+            margin-left: 29em;
+        }
+        
+
+    }
+   
+
+    .more-part-2{
+        top: 90em;
+        bottom: 10em;
+        position: absolute;
+        top: 140em;
+    }
+
+
+    .video-3-container{
+
+        display: flex;
+        background: none;
+        border-radius: 90em;
+        border: none;
+       
+
+
+        .part-3{
+            display: flex;
+            z-index: 999;
+            margin-top: 30em;
+            font-size: .7em;
+            margin-left: .1em;
+            padding-left: .1em;
+            left: -1em;
+            text-align: left;
+            justify-content: left;
+            margin-right: 20em;
+        }
+
+
+        .minectraft-part-3-img{
+          width: 40%;
+          position: absolute;
+          top: 84em;
+          margin-left: .1em;
+         left: 3em;
+         border: none;
+        }
+
+    }
+
+
+    .video-4-container{
+        display: flex;
+
+        .youtube-grey-icon{
+            display: none;
+        }
+
+        .another-video-it-is-mac{
+            display: block;
+            font-size: .7em;
+            margin-left: 42em;
+            margin-top: 16em;
+        }
+
+        .mac-look-image{
+            width: 40%;
+            margin-left: 29em;
+            margin-top: 2em;
+            border: none;
+        }
+
+    }
+
+
+
+}
+
+@media only screen and (min-width: 917px){
+
+    .BodySection{
+        background-image: url(https://clipartart.com/images/ash-and-pikachu-clipart-7.jpg);
+    }
+
+    .more-button-on-body-section{
+        padding-right: 12em;
+        padding-left: 12em;
+    }
+
+    .navbar{
+        background: #a07979d3;
+        width: 100em;
+    }
+
+}
+
+
+@media only screen and (min-width: 933px){
+
+
+    .BodySection{
+        background-image: url(https://clipartart.com/images/ash-and-pikachu-clipart-7.jpg);
+    }
+
+    .more-part-2{
+        margin-left: 50em;
+    }
+
+    .back-to-top-button{
+        margin-left: 50em;
+    }
+
+}
+
+@media only screen and (min-width: 1002px){
+
+    .more-part-2{
+        margin-left: 55em;
+    }
+
+    .back-to-top-button{
+        margin-left: 55em;
+    }
+
+    .BodySection{
+        background-image: url(https://i.pinimg.com/originals/60/04/7a/60047ae99600f054f02242447918077e.jpg);
+    }
+
+    .video-4-container{
+
+        .mac-look-image{
+            margin-top: 1em;
+            margin-left: 35em;
+        }
+
+        .another-video-it-is-mac{
+            margin-top: 18em;
+            margin-left: 55em;
+        }
+
+    }
+
+    .video-3-container{
+
+        .part-3{
+            margin-top: 32em;
+           
+        }
+
+        .minectraft-part-3-img{
+            top: 84.3em;
+        }
+
+    }
+
+    .video-2-container{
+
+        .video2{
+           margin-left: 35em; 
+        }
+
+    }
+
+    .navbar{
+        background: white;
+    }
+
+}
+
+@media only screen and (min-width: 1118px){
+
+    .video-3-container{
+       
+        .part-3{
+           margin-top: 34em;
+       }
+
+    }
+
+    .video-4-container{
+
+        .another-video-it-is-mac{
+            margin-top: 19em;
+        }
+
+        .mac-look-image{
+            margin-top: .5em;
+        }
+
+    }
+
+    .more-part-2{
+        margin-left: 60em;
+    }
+
+    .back-to-top-button{
+        margin-left: 62em;
+    }
+
+}
+
+@media only screen and (min-width: 1174px){
+    
+    .more-button-on-body-section{
+        padding-left: 20em;
+        padding-right: 20em;
+    }
+
+}
+    
+@media only screen and (min-width: 1209px){
+    
+    .more-button-on-body-section{
+        padding-left: 22em;
+        padding-right: 22em;
+    }
+
+    .video-3-container{
+
+        .minectraft-part-3-img{
+            
+            top: 87em;
+
+        }
+
+        .part-3{
+
+            margin-top: 38em;
+
+        }
+
+    }
+
+    .video-4-container{
+    
+        .another-video-it-is-mac{
+        
+            margin-top: 23em;
+            margin-left: 70em;
+
+        }
+
+        .mac-look-image{
+
+            margin-top: .1em;
+            margin-left: 42em;
+
+        }
+
+    }
+
+    .video-2-container{
+
+    .video2{
+
+        margin-left: 42em;
+
+    }        
+
+    }
+
+}
+
+@media only screen and (min-width: 1253px){
+
+    .BodySection{
+        
+        h1{
+            text-align: center;
+        }
+
+    }
+
+    .more-part-2{
+
+        margin-left: 70em;
+
+    }
+
+    .back-to-top-button{
+
+       margin-left: 72em;
+
+    }
+
+}
+
+@media only screen and (min-width: 1480px){
+
+    .BodySection{
+
+        background-image: url(https://images2.alphacoders.com/716/thumb-1920-716462.png);
+        width: 100%;
+
+
+        .more-button-on-body-section{
+
+            margin-left: 23em;
+
+        }  
+
+
+    }
+
+    .video-2-container{
+        
+        .video2{
+            margin-left: 50em;
+        }
+
+    }
+
+    .video-3-container{
+
+        .minectraft-part-3-img{
+
+            margin-top: 10em;
+
+        }   
+        
+        .part-3{
+            margin-top: 52em;
+        }
+
+    }
+
+    .video-4-container{
+     
+        .another-video-it-is-mac{
+            
+            margin-top: 37em;
+            margin-left: 80em;
+        }
+
+        .mac-look-image{
+
+            margin-left: 51em;
+
+        }
+
+    }    
+
+}
